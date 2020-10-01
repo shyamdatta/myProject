@@ -1,0 +1,158 @@
+body{
+    font-family: 'Montserrat';
+}
+
+#title{
+    background-color: #ff4c68;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    padding-bottom: 30px;
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+h1{
+    font-family: 'Montserrat-black';
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height:1.5;
+}
+p{
+    color: #6b6767;
+    font-weight: 700;
+    line-height:1.5;
+}
+
+.contianer-fluid{
+    padding: 5% 15%;
+}
+
+.navbar{
+    padding: 0 0 3.5rem 0;
+}
+
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 20px 0 20px ;    
+}
+.nav-link{
+   font-size: 1.2rem;
+   font-family: 'Montserrat-light';
+}
+
+.title-image{
+transform: rotate(25deg);
+padding: 40px 40px ;
+width: 70%;
+position: absolute;
+}
+
+@media (max-width: 1028px){
+    .title-image{
+        transform: rotate(0deg);
+        padding: 40px 40px ;
+        width: 70%;
+        position: static;        
+    }
+    h1{
+        font-family: 'Montserrat-black';
+        font-size: 3.5rem;
+        font-weight: 900;
+        line-height:1.5;
+        text-align: center;
+    }
+    .download-button{
+        margin:4% 3% 4% 0 ;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.download-button{
+    margin:4% 3% 4% 0 ;
+}
+#features{
+    padding: 100px 100px;
+    font-weight: bold;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+.fetaure-icons{
+    color:#cf8172 ;
+    margin-bottom: 1rem;
+}
+.fetaure-icons:hover{
+    color :#ff4c68 ;
+}
+.fetaure-details{
+    text-align: center;
+    padding: 30px 50px;
+}
+h3{
+    font-family: 'Montserrat-bold';
+ 
+}
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+}
+h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+em{
+    color: white;
+}
+.testimonials-carosel-css{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    text-align: center;
+    width: 15%;
+    border-radius: 100%;
+    padding: 20px 20px;
+}
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#cta{
+    background-color: #ff4c68;
+}
+#pricing{
+    text-align: center;
+    color:black;
+    padding: 100px 200px;
+  
+}
+#cta{
+    text-align: center;
+    padding: 7% 15%;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-css{
+    color: white;
+    margin: 0px 120px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.foot-css{
+margin: 20px 10px;
+}
+.footer-button{
+    text-decoration: none;
+}
